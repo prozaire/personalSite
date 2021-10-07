@@ -1,0 +1,168 @@
+body {
+    font-family: SF Pro Display;
+    font-style: normal;
+    /* style */
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 48px;
+    left: 3%;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: auto;
+    height: 43px;
+    top: 53px;
+    /* font */
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 43px;
+    color: #090069;
+}
+
+nav {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0px;
+    width: 700px;
+    height: 29px;
+    /* font */
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 29px;
+    /* identical to box height */
+    /* System Colors/Blue */
+    color: #090069;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1919px;
+    top: 173px;
+}
+
+section p {
+    font-weight: 600;
+    font-size: 3.5vw;
+    margin-top: 8vw;
+    margin-bottom: 10px;
+    line-height: 119px;
+    color: #090069;
+}
+
+.smallText {
+    color: rgba(0, 0, 0, 1);
+}
+
+section .smallText {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 29px;
+}
+
+section button {
+    position: relative;
+    width: max-content;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #090069;
+}
+
+section img {
+    position: absolute;
+    width: 20vw;
+    max-width: 100%;
+    height: auto;
+    right: 15vw;
+    top: 173px;
+    background: url(img/Story.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+button {
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: #1507ad;
+}
+
+section h2 {
+    font-weight: 600;
+    font-size: 2.7vw;
+    margin-top: 1vw;
+    margin-bottom: 10px;
+    line-height: 119px;
+    color: #0f61dd;
+}
+
+section h3 {
+    margin-top: 10px;
+    width: 50%;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 29px;
+}
+.img1 {
+    position: absolute;
+    width: 33vw;
+    height: auto;
+    top: 18vw;
+    right: 10vw;
+}
+
+
+.img2 {
+    position: absolute;
+    width: 35vw;
+    height: auto;
+    right: 200px;
+    top: 870px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img3 {
+    position: absolute;
+    width: 35vw;
+    height: auto;
+    right: 200px;
+    top: 1400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

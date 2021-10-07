@@ -1,0 +1,15 @@
+Hice un sitio web personal con 4 secciones: 
+Las 4 secciones están constituidas de la misma manera: un título, un nav, una sección con interior h2,h3 e imagen.
+El CSS utiliza colocaciones absolutas y relativas. 
+Utilicé Flex principalmente. 
+Problemas : 
+CSS: Este es mi mayor problema. Para hacerlo bien tendría que rehacerlo todo porque he aprendido muchas cosas haciendo esta página. 
+No tengo tiempo para rehacerlo pero si lo hiciera utilizaría el menor número de reglas CSS posibles para evitar conflictos y poder hacer cambios en el teléfono más fácilmente. 
+
+Validaciones : 
+El CSS es validado por: https://jigsaw.w3.org/css-validator/validator
+Las páginas HTML son validadas por: https://validator.w3.org/
+Los colores se validan a través de: https://webaim.org/resources/contrastchecker/?fcolor=090069&bcolor=FFFFFF
+https://webaim.org/resources/contrastchecker/?fcolor=1507AD&bcolor=FFFFFF
+https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=FFFFFF
+Colores utilizados: #090069, #1507AD, #000000

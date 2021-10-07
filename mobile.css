@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+    body {
+        all: revert;
+        width: 600px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        position: absolute;
+        top: 1vh;
+        left: 1vh;
+        margin: 0px;
+    }
+    h3 {
+        all:unset;
+        font-size: medium;
+    }
+    nav {
+        all: revert;
+        position: absolute;
+        top: 10vh;
+        width: fit-content;
+        height: fit-content;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 400;
+        color: #090069;
+    }
+    .img1 {
+        all: revert;
+        width: 100px;
+        height: auto;
+    }
+    .img2 {
+        all: revert;
+        width: 100px;
+        height: auto;
+    }
+    .img3 {
+        all: revert;
+        width: 100px;
+        height: auto;
+    }
+    section {
+        all: revert;
+        display: flex;
+        flex-direction: column;
+    }
+}
